@@ -1,0 +1,58 @@
+/* common css start */
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+ol {
+  list-style: none;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+/* common css end */
+/* nav start */
+#navigation {
+  padding: 37.5px 0;
+  background-color: #9538e2;
+}
+#navigation .navbox {
+  display: flex;
+  justify-content: space-between;
+}
+#navigation .navbox .navlist {
+  display: flex;
+  column-gap: 48px;
+}
+#navigation .navbox .navlist li a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+#navigation .navbox .navlist li a:hover{
+font-weight: 700;
+line-height: normal;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-decoration-skip-ink: none;
+text-decoration-thickness: auto;
+text-underline-offset: auto;
+}
+/* nav end */
