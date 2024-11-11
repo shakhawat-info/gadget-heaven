@@ -33,7 +33,7 @@
 }
 #details .dtlbox {
   position: absolute;
-  top: 0;
+  top: -750px;
   left: 0;
   padding: 32px;
   display: flex;
